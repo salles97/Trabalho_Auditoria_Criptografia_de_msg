@@ -2,7 +2,7 @@
 
 typedef unsigned char byte;
 
-void Cifra(byte *bloco, char *chave, int itens)
+void cifra(byte *bloco, char *chave, int itens)
 {
   int i;
   for (i = 0; i < itens; i++)

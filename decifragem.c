@@ -2,7 +2,7 @@
 // #include <stdlib.h>
 typedef unsigned char byte;
 
-void Decifra(byte *bloco, char *chave, int itens)
+void decifra(byte *bloco, char *chave, int itens)
 {
   int i;
   for (i = 0; i < itens; i++)
